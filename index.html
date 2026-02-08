@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> झाडाची माहिती</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===== COMMON ===== */
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Noto Sans Devanagari", sans-serif;
+      color: #1b5e20;
+      line-height: 1.75;
+      background: #ffffff;
+    }
+
+    /* ===== HEADER (SAME) ===== */
+    header {
+      background: linear-gradient(to right, #0d0d0d, #b30000);
+      color: #fff;
+      padding: 28px 40px;
+    }
+
+    .header-container {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .logo { text-align: center; }
+    .logo img { height: 120px; }
+
+    .udise {
+      margin-top: 6px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .header-text { text-align: center; }
+
+    .header-text h1 {
+      font-size: 36px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .header-text h2 {
+      font-size: 24px;
+      margin: 8px 0;
+      font-weight: 600;
+    }
+
+    .email {
+      font-size: 16px;
+      text-align: right;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .email { text-align: center; }
+      .logo img { height: 95px; margin: auto; }
+    }
+
+    /* ===== BACKGROUND ===== */
+    .main-wrapper {
+      background:
+        linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
+        url("bg1.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 35px 22px;
+    }
+
+    /* ===== TREE CONTENT ===== */
+    .tree-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .tree-title h1 { font-size: 46px; }
+
+    .tree-title p {
+      font-size: 18px;
+      color: #33691e;
+    }
+
+    .tree-image {
+      width: 360px;
+      height: 300px;
+      margin: 28px auto;
+      border-radius: 20px;
+      background: linear-gradient(145deg, #e8f5e9, #c8e6c9);
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    }
+
+    .tree-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    section {
+      background: linear-gradient(to bottom right, #ffffff, #f1fff3);
+      padding: 32px;
+      margin-bottom: 38px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+
+    section h2 {
+      border-bottom: 3px solid #81c784;
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+      font-size: 28px;
+    }
+
+    section p { text-align: justify; }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: linear-gradient(to bottom right, #ffffff, #e8f5e9);
+      padding: 22px;
+      border-radius: 14px;
+      border-left: 6px solid #2e7d32;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+
+    .circular-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .circular-card {
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #e8f5e9, #a5d6a7);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 28px;
+      border: 6px solid #2e7d32;
+    }
+
+    /* ===== FOOTER (SAME) ===== */
+    footer {
+      text-align: center;
+      padding: 22px;
+      background: linear-gradient(to right, #2e7d32, #66bb6a);
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===== HEADER (UNCHANGED) ===== -->
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="pm logo.png" alt="PM SHRI Logo">
+      <div class="udise">UDISE : 27150107301</div>
+    </div>
+
+    <div class="header-text">
+      <h1>पीएम श्री जिल्हा परिषद हायस्कूल, विष्णुपूरी नांदेड</h1>
+    </div>
+
+    <div class="email">
+      E-mail ID<br>
+      <strong>zphsvishnupuri@gmail.com</strong>
+    </div>
+  </div>
+</header>
+
+
+<div class="main-wrapper">
+
+<main>
+
+  <div class="tree-title">
+    <h1>🌸 पेटुनिया</h1>
+    <p>
+      English Name : Petunia<br>
+      <i>Scientific Name : Petunia × hybrida</i>
+    </p>
+
+    <div class="tree-image">
+      <img src="petunia.jpg" alt="पेटुनिया फूल">
+    </div>
+  </div>
+
+  <section>
+    <h2>संक्षिप्त परिचय</h2>
+    <p>
+      पेटुनिया हे एक अत्यंत लोकप्रिय, शोभेचे फुलझाड आहे.
+      हे Solanaceae (सोलानेसी) कुलातील असून याचा उगम दक्षिण अमेरिकेत झाला आहे.
+      पेटुनियाची फुले मोठी, नाजूक व विविध रंगांची असतात.
+      कुंड्या, बागा, बाल्कनी व हँगिंग बास्केटसाठी हे झाड मोठ्या प्रमाणावर लावले जाते.
+      कमी कालावधीत भरपूर फुले देणारे हे झाड आहे.
+    </p>
+  </section>
+
+  <section>
+    <h2>वनस्पतीशास्त्रीय माहिती</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>🌿 कुल</h3>
+        <p>Solanaceae (सोलानेसी कुल)</p>
+      </div>
+      <div class="card">
+        <h3>🌱 रचना</h3>
+        <p>लहान, पसरट वाढणारी, मऊ खोडाची वनस्पती</p>
+      </div>
+      <div class="card">
+        <h3>🌼 फुले</h3>
+        <p>मोठी, घंटेसारखी, विविध रंगांची</p>
+      </div>
+      <div class="card">
+        <h3>🌍 अधिवास</h3>
+        <p>बागा, कुंड्या, बाल्कनी</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+</div>
+
+</div>
+
+
+
+<!-- ===== FOOTER (UNCHANGED) ===== -->
+<footer>
+  © 2025–26 | झाडांची माहिती | PM SHRI ZP High School, Vishnupuri, Nanded
+</footer>
+
+</body>
+</html>
